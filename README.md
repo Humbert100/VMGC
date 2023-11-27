@@ -46,3 +46,10 @@ pip install -r requirements.txt
 ```
 curl ipv4.icanhazip.com
 ```
+# STOP PORTS
+```
+lsof -i :5000
+```
+```
+kill -9 <PID>
+```
