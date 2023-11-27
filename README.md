@@ -14,3 +14,35 @@ Estos son los comandos para correr la app y el localtunnel (para escuchar el pue
 No necesitarías instalar algun package y/o requeriments ni clonar el repo en teoría porque ya está.  
 <br>
 Lo único que me falta de comprobar es el post. 
+
+# GOOGLE CLOUD
+```
+sudo apt-get update
+```
+```
+sudo apt-get install install python3.9-venv
+```
+```
+python3.9 -m venv env
+```
+```
+source env/bin/activate
+```
+```
+sudo apt install npm
+```
+```
+sudo npm install -g localtunnel
+```
+```
+pip install Flask
+```
+```
+pip install Flask-Cors
+```
+```
+pip install -r requirements.txt
+```
+```
+curl ipv4.icanhazip.com
+```
