@@ -12,7 +12,8 @@ from validacion import test_pipeline
 app = Flask(__name__)
 CORS(app)
 
-URL_BASE = "https://shaggy-roses-arrive.loca.lt"
+#URL_BASE = "https://shaggy-roses-arrive.loca.lt"
+URL_BASE = "https://oxxo-object-detect.loca.lt"
 PLAN_DICT = {}
 REALOGRAM = np.empty(0)
 PLAN_ID = -1
